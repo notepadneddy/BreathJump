@@ -1,0 +1,17 @@
+HotKeySet("{esc}","quit")
+$quit=false
+
+Do
+sleep(Random(15000,20000,1))
+$breath = PixelGetColor(934,136) ;Defines the pixel to check for.
+  If $breath = 0x888381 Then ;Defines which colour to look for 
+   Send("{SPACE DOWN}")
+   sleep(Random(1000,1500,1))
+   Send("{SPACE UP}")  
+  EndIf
+until $quit=true
+
+func quit()
+   $quit=true
+   Exit
+EndFuncw
