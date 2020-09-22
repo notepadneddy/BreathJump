@@ -1,5 +1,7 @@
 # BreathJump
 Tool to prevent dying from drowning in WoW.
+https://www.lahtinen.cc/sharex/u/S2Xi.webm
+
 The app itself looks for a pixel to change to the color of the breathbar in WoW. The check is made every 15-20 seconds (randomly decided).
 If the breath bar is identified, the app performs the following actions:
 
