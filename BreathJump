@@ -12,7 +12,7 @@ $breath = PixelGetColor(934,136)                   ;defines the pixel that shoul
     WinActivate("[CLASS:GxWindowClass]", "")       ;Makes WoW the active window
     WinWaitActive("[CLASS:GxWindowClass]", "", 10) ;Waits for WoW to be active window
     Send("{SPACE DOWN}")                           ;Sends spacebar down
-    sleep(Random(1000,1500,1))                     ;waits for random time between 1 and 1.5 seconds in order to simulat spacebar being held down
+    sleep(Random(1000,1500,1))                     ;waits for random time between 1 and 1.5 seconds in order to simulate spacebar being held down
     Send("{SPACE UP}")                             ;Sends spacebar up
     BlockInput($BI_ENABLE)                         ;unblocks user input
   EndIf                                         
