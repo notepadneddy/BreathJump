@@ -13,8 +13,8 @@ As you can see in the code - the input is blocked only after the breath bar has 
 
 After starting the compiled file - use ESC to close the app.
 
-The code as it is only works on 1920x1080 resolution and with the standard WoW breath bar.
-WoW also has to be on the main display.
+The code as it is only works on 1920x1080 resolution and with the standard WoW breath bar.  
+WoW also has to be on the main display.  
 Line #9 and #10 in the code can be changed to change which pixel to look at, as well as which colour it should have.  
 Line #8 can be changed to change how often the check is done.  
 Line #15 can be changed to change how long the spacebar should be held down.
