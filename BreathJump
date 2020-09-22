@@ -1,3 +1,6 @@
+#RequireAdmin
+#include <AutoItConstants.au3>
+
 HotKeySet("{esc}","quit")                          ;Sets ESC to hotkey to go to the function "quit" (line 18)
 $quit=false                                        ;sets the value of $quit to "false" (used to determine if the loop should continue or not, see line 16)
 
